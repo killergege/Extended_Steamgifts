@@ -1046,7 +1046,7 @@ $.fn.format_ga = function() {
 
 		if(path==$(".nav__avatar-outer-wrap").attr('href')+"/giveaways/won" || path.match("^/user"))
 		{
-			$(ga).find('.giveaway__row-inner-wrap').removeClass('is-faded');
+			//$(ga).find('.giveaway__row-inner-wrap').removeClass('is-faded');
 		}
 	});
 };
